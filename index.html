@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="bg-secondary">
+    <header class="bg-secondary" style="position: fixed; width: 100%; z-index: 1;">
         <div class="row text-white">
             <div class="col-md-6 col-9 p-3 ps-5">
                 <h2>Akash Raj</h2>
@@ -25,16 +25,16 @@
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-white font-weight-bold" aria-current="page" href="#home-section" style="font-weight: bolder;">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Services</a>
+                            <a class="nav-link text-white" href="#service-section">Services</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Experience</a>
+                            <a class="nav-link text-white" href="#experience-section">Experience</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contact me</a>
+                            <a class="nav-link text-white" href="#contact-section">Contact me</a>
                           </li>
                         </ul>
                       </div>
@@ -44,7 +44,7 @@
         </div>
     </header>
 
-    <section class="pt-3">
+    <section class="" id="home-section" style="padding-top: 7rem;">
         <div class="container tex">
             <div class="row align-items-center">
                 <div class="col-md-6 text-center">
@@ -57,7 +57,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-light">
+    <section class="bg-light" id="service-section">
         <div class="container p-4">
           
             <h1 class="text-center">Services</h1>
@@ -95,7 +95,7 @@
             </div>
     </section>
 
-    <section class="bg-secondary p-4">
+    <section class="bg-secondary p-4" id="experience-section">
       <div class="container">
         <h1 class="text-center pb-4" >Experiences</h1>
         <div class="row" style="padding-left: 5.5rem">
@@ -139,7 +139,7 @@
       </div>
     </section>
 
-    <section class="p-5 bg-light">
+    <section class="p-5 bg-light" id="contact-section">
       <div class="container">
         <div class="row">
                       <!--Section: Contact v.2-->
@@ -257,7 +257,7 @@
               <a class="text-dark m-3" href="">
                 <i class="fa-brands fa-facebook-square fa-2x"></i>
               </a>
-              <p class="pt-5 mb-0">© Copyright</p>
+              <p class="pt-4 mb-0">© Copyright</p>
               <p class="mb-0">designed by <span class="text-dark">mbk</span></p>
             </div>
           </div>
