@@ -2,3 +2,7 @@
     width: auto;
     padding: 0.5rem;
 }
+.socials a:hover i{
+    color: white;
+
+}
